@@ -1,0 +1,9 @@
+{
+    "is-main": true,
+    "import": [
+        "moonbitlang/esp32/components/lcd",
+        "moonbitlang/esp32/components/task",
+        "moonbitlang/esp32/components/spi",
+        "username/hello/game"
+    ]
+}
