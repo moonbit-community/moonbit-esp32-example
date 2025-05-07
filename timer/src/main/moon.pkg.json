@@ -1,0 +1,7 @@
+{
+    "is-main": true,
+    "import": [
+        "moonbitlang/esp32/components/timer",
+        "moonbitlang/esp32/components/task"
+    ]
+}
