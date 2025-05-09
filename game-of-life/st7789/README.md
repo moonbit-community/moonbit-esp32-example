@@ -10,4 +10,4 @@ make flash monitor
 
 In `./src/main/moon.pkg.json`, change `-Og` to `-O2` or `-O3` in `["link"]["native"]["cc-flags"]` for better optimization.
 
-Execute `idf.py menuconfig` and set `Optimization Level` to `Optimize for performance` in `Compiler options`.
+Execute `idf.py -C ./.moonbit_esp32 menuconfig` and set `Optimization Level` to `Optimize for performance` in `Compiler options`.
