@@ -12,7 +12,7 @@ $ curl -fsSL https://cli.moonbitlang.cn/install/unix.sh | bash -s 0.1.20250423+2
 
 Refer to the official ESP-IDF documentation for installation instructions:
 
-https://docs.espressif.com/projects/esp-idf/en/v5.4.1/esp32/get-started/index.html#installation
+https://docs.espressif.com/projects/esp-idf/en/v5.4.1/esp32c3/get-started/index.html
 
 For ESP32-C3 QEMU simulator setup, see:
 
