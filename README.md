@@ -43,7 +43,11 @@ $ cd game-of-life/qemu
 # This will install the moonbit-esp32 package
 # and execute the `postadd` script for configuration.
 # This also generates a Makefile to help build the project.
-# Note: If Makefile already exists, it will not be overwritten. Delete it if you want to regenerate it.
+
+# Note: If Makefile already exists, it will not be overwritten.
+# If you want to regenerate it, delete Makefile and execute
+#   `python3 ./.mooncakes/moonbitlang/esp32/build.py`
+# to regenerate it.
 $ moon install
 
 # Set the target to esp32c3.
