@@ -8,6 +8,8 @@
 $ curl -fsSL https://cli.moonbitlang.cn/install/unix.sh | bash -s 0.1.20250423+2af95d42c
 ```
 
+> Note: Using the latest or other versions of the toolchain may not work as expected, so please proceed with caution.
+
 ### Install ESP IDF Toolchains
 
 Refer to the official ESP-IDF documentation for installation instructions:
