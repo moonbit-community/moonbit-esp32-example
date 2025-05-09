@@ -33,28 +33,30 @@ Copyright (c) 2003-2024 Fabrice Bellard and the QEMU Project developers
 
 ## Run the Example
 
-To run the Game of Life example on QEMU, follow these steps:
+For example, to run the Game of Life example on QEMU, follow these steps:
 
 ```bash
-cd game-of-life/qemu
+$ cd game-of-life/qemu
 
 # This will install the moonbit-esp32 package
 # and execute the `postadd` script for configuration.
 # This also generates a Makefile to help build the project.
 # Note: If Makefile already exists, it will not be overwritten. Delete it if you want to regenerate it.
-moon install
+$ moon install
 
 # Set the target to esp32c3.
-make set-target esp32c3
+$ make set-target esp32c3
 
 # Install ESP-IDF dependencies.
-make update-deps
+$ make update-deps
 
 # Build the project.
-make build
+$ make build
 
 # Run the QEMU simulator.
-make qemu
+$ make qemu
 ```
 
 See `game-of-life/qemu/README.md` for optimized configuration settings.
+
+For other examples, follow the similar steps as above.
